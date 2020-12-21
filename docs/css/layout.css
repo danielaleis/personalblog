@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(206, 199, 199);
+    color:black;
+    margin: 0px;
+}
+
+#pagetitle {
+    color:black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    margin: 20px 0px 0px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+#subtitle {
+    color:black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.25em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+h1 {
+    color:black;
+    text-align: center;
+}
+
+h2 {
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    color:black;
+}
+
+p {
+    color:black;
+    margin: 10px 5px 30px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+.content {
+    padding: 0px 20px 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+
+}
+
+p>strong {
+    color:black;
+    margin: 10px 5px 3px 0px;
+}
+
+p>em {
+    color:black;
+    margin: 10px 5px 3px 0px;
+}
+
+p>u {
+    color:black;
+    margin: 10px 5px 3px 0px;
+}
+
+a {
+    color:black;
+    margin: 10px 5px 3px 0px;
+}
+
+blockquote {
+    color: rgb(68, 102, 0);
+    margin: 10px 5px 5px 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/*Quotes */

@@ -1,0 +1,33 @@
+#authorbox {
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border: 2px grey solid;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+#name {
+    margin: 0px 5px 5px 0px;
+    font-size: 1em;
+}
+
+#title {
+    margin: 0px 5px 0px 0px;
+}
+
+#company {
+    margin: 0px 5px 20px 0px;
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+#bio {
+    margin: 0px 5px 20px 0px;
+    font-size: 0.75em;
+}
+
+#authorbox>img {
+    width: 200px;
+}

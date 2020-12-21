@@ -1,0 +1,95 @@
+
+/*.grid-item {
+border: 5px solid blue;
+}*/
+
+.header {
+    grid-area: hd;
+}
+
+.cards {
+    grid-area: cards;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.content {
+    grid-area: main;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: ft;
+}
+
+/*large screens*/
+
+@media (min-width:1101px) {
+    .grid-home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 120px 80px auto auto 100px;
+        grid-gap: 5px;
+        grid-template-areas:
+            "hd hd hd hd"
+            "nav nav nav nav"
+            "main main main main"
+            "cards cards cards cards"
+            "ft ft ft ft"
+    }
+}
+
+/*medium screens*/
+
+@media (min-width:600px) and (max-width:1100px) {
+    .grid-home {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px 80px auto auto 100px;
+        grid-gap: 5px;
+        grid-template-areas:
+            "hd"
+            "nav"
+            "main"
+            "cards"
+            "ft"
+    }
+}
+
+/*small screens --- kommt noch*/
+
+
+
+/*medium screens*/
+@media (min-width:600px) and (max-width:1100px) {
+.grid-blogpost {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 80px auto auto 100px;
+    grid-gap: 5px;
+    grid-template-areas:
+        "hd"
+        "nav"
+        "main"
+        "sidebar"
+        "ft"
+}}
+
+/*large screens*/
+@media (min-width:1101px) {
+    .grid-blogpost {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 120px 80px auto 100px;
+        grid-gap: 5px;
+        grid-template-areas:
+            "hd hd hd hd"
+            "nav nav nav nav"
+            "main main main sidebar"
+            "ft ft ft ft"
+    }}

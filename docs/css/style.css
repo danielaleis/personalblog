@@ -1,0 +1,72 @@
+@import "layout.css";
+@import "cards.css";
+@import "grid.css";
+@import "authorbox.css";
+
+
+.header {
+    color:black;
+    background: rgb(68, 102, 0);
+    padding: 0px 0px 5px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.nav {
+    color:black;
+    background: rgb(102, 153, 255);
+    padding: 0px 5px 5px 5px;
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+#home-image>img {
+    width: 100%;
+}
+
+#blogpost-image>img {
+    width: 100%;
+    margin: 5px 5px 5px 5px;
+}
+
+.footer {
+    color:black;
+    background: rgb(68, 102, 0);
+    width: 100%;
+    padding: 0px 5px 5px 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+#social_links>a {
+    text-decoration: none;
+    border: 3px grey solid;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+#social_links>a:hover {
+    background-color: rgb(194, 233, 116);
+}
+
+#social_links {
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+
+.input {
+    color:black;
+    margin: 10px 5px 3px 0px;
+}
+
+.abc>input {
+    height: 100px;
+    width: 80%;
+}
+
+
