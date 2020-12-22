@@ -1,45 +1,50 @@
 body {
     background-color: rgb(206, 199, 199);
-    color:black;
+    color: black;
     margin: 0px;
 }
 
 #pagetitle {
-    color:black;
+    color: white;
     text-align: center;
     display: flex;
     justify-content: space-around;
-    font-size: 2em;
+    font-size: 4em;
     margin: 20px 0px 0px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
 }
 
+.header>a {
+    text-decoration: none;
+}
+
 #subtitle {
-    color:black;
+    color: white;
     text-align: center;
     display: flex;
     justify-content: space-around;
-    font-size: 1.25em;
+    font-size: 2.75em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+
 }
 
 h1 {
-    color:black;
+    color: black;
     text-align: center;
 }
 
 h2 {
-    color:black;
+    color: black;
     text-align: center;
     text-decoration: underline;
 }
 
 h3 {
-    color:black;
+    color: black;
 }
 
 p {
-    color:black;
+    color: black;
     margin: 10px 5px 30px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
 }
@@ -47,27 +52,31 @@ p {
 .content {
     padding: 0px 20px 20px 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
-
 }
 
 p>strong {
-    color:black;
+    color: black;
     margin: 10px 5px 3px 0px;
 }
 
 p>em {
-    color:black;
+    color: black;
     margin: 10px 5px 3px 0px;
 }
 
 p>u {
-    color:black;
+    color: black;
     margin: 10px 5px 3px 0px;
 }
 
 a {
-    color:black;
+    color: white;
     margin: 10px 5px 3px 0px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(194, 233, 116);
 }
 
 blockquote {
@@ -76,6 +85,12 @@ blockquote {
     font-family: 'Courier New', Courier, monospace;
 }
 
+@media (min-width:600px) and (max-width:1100px) {
+    #pagetitle {
+        font-size: 4em;
+    }
 
-
-/*Quotes */
+    #subtitle {
+        font-size: 2.75em;
+    }
+}

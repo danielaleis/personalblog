@@ -5,16 +5,16 @@
 
 
 .header {
-    color:black;
+    color: black;
     background: rgb(68, 102, 0);
     padding: 0px 0px 5px 0px;
     margin: 0px 0px 0px 0px;
 }
 
 .nav {
-    color:black;
+    color: white;
     background: rgb(102, 153, 255);
-    padding: 0px 5px 5px 5px;
+    padding: 15px 5px 5px 5px;
     margin: 0px 0px 10px 0px;
     display: flex;
     justify-content: space-around;
@@ -31,7 +31,7 @@
 }
 
 .footer {
-    color:black;
+    color: black;
     background: rgb(68, 102, 0);
     width: 100%;
     padding: 0px 5px 5px 5px;
@@ -58,9 +58,8 @@
     text-decoration: none;
 }
 
-
 .input {
-    color:black;
+    color: black;
     margin: 10px 5px 3px 0px;
 }
 
@@ -68,5 +67,3 @@
     height: 100px;
     width: 80%;
 }
-
-
